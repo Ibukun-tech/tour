@@ -3,10 +3,10 @@ import Link from "next/link";
 import React from "react";
 
 type Props = {
-  type: "submit" | "submit";
+  type: "button" | "submit";
   value: string;
   icon?: string;
-  variant: "btn_dark_green";
+  variant: "btn_dark_green" | "btn_white_text" | "btn_green";
 };
 
 const Button = ({ type, value, icon, variant }: Props) => {
