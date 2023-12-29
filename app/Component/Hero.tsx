@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
         <Image
           src="/camp.svg"
           height={50}
-          className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
+          className="absolute left-[-3px] top-[-35px] w-10 lg:w-[50px]"
           width={50}
           alt="camp"
         />
